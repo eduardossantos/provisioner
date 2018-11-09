@@ -1,0 +1,13 @@
+[manager]
+52.72.206.40
+[manager:vars]
+ansible_ssh_user=ubuntu
+ansible_ssh_private_key_file=/Users/rogerio.c.peixoto/.ssh/adcc-dev.pem
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+[worker]
+34.224.213.175
+54.197.5.133
+[worker:vars]
+ansible_ssh_user=ubuntu
+ansible_ssh_private_key_file=/Users/rogerio.c.peixoto/.ssh/adcc-dev.pem
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
